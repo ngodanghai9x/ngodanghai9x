@@ -1,0 +1,10 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Ẩn "View On GitHub" ribbon và dòng "Project maintained by ... — Theme by mattgraham" */
+#header,
+.credits {
+  display: none;
+}
