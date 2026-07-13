@@ -28,47 +28,63 @@ Software Engineer · Hà Nội, Việt Nam
 
 > Nguồn: [github.com/ngodanghai9x](https://github.com/ngodanghai9x?tab=repositories) (không tính fork). 🔒 = repo private.
 
+<table>
+<tr>
+<td valign="top" width="33%" style="min-width:260px">
+
 ### Product / Full-stack
-- [web-on-thi-fe](https://github.com/ngodanghai9x/web-on-thi-fe) <img src="https://skillicons.dev/icons?i=js" height="20"/>
-- [web-on-thi-be](https://github.com/ngodanghai9x/web-on-thi-be) <img src="https://skillicons.dev/icons?i=java" height="20"/>
+- [web-on-thi-fe](https://github.com/ngodanghai9x/web-on-thi-fe) <img src="https://skillicons.dev/icons?i=js" height="18"/>
+- [web-on-thi-be](https://github.com/ngodanghai9x/web-on-thi-be) <img src="https://skillicons.dev/icons?i=java" height="18"/>
 
 ### Backend
-- [learn-nestjs](https://github.com/ngodanghai9x/learn-nestjs) <img src="https://skillicons.dev/icons?i=ts" height="20"/>
-- [learn-express](https://github.com/ngodanghai9x/learn-express) <img src="https://skillicons.dev/icons?i=js" height="20"/>
-- [learn-fastify](https://github.com/ngodanghai9x/learn-fastify) <img src="https://skillicons.dev/icons?i=js" height="20"/>
-- [🔒 template-nestjs](https://github.com/ngodanghai9x/template-nestjs) <img src="https://skillicons.dev/icons?i=ts,docker" height="20"/>
-- [🔒 templates-backend](https://github.com/ngodanghai9x/templates-backend) <img src="https://skillicons.dev/icons?i=nodejs,python,go" height="20"/>
-- [🔒 stock-market-be](https://github.com/ngodanghai9x/stock-market-be) <img src="https://skillicons.dev/icons?i=ts" height="20"/>
-- [🔒 sg12-19](https://github.com/ngodanghai9x/sg12-19) <img src="https://skillicons.dev/icons?i=java" height="20"/>
-- [🔒 bullmq-poc](https://github.com/ngodanghai9x/bullmq-poc) <img src="https://skillicons.dev/icons?i=ts,redis" height="20"/>
+- [learn-nestjs](https://github.com/ngodanghai9x/learn-nestjs) <img src="https://skillicons.dev/icons?i=ts" height="18"/>
+- [learn-express](https://github.com/ngodanghai9x/learn-express) <img src="https://skillicons.dev/icons?i=js" height="18"/>
+- [learn-fastify](https://github.com/ngodanghai9x/learn-fastify) <img src="https://skillicons.dev/icons?i=js" height="18"/>
+- [🔒 template-nestjs](https://github.com/ngodanghai9x/template-nestjs) <img src="https://skillicons.dev/icons?i=ts,docker" height="18"/>
+- [🔒 templates-backend](https://github.com/ngodanghai9x/templates-backend) <img src="https://skillicons.dev/icons?i=nodejs,python,go" height="18"/>
+- [🔒 stock-market-be](https://github.com/ngodanghai9x/stock-market-be) <img src="https://skillicons.dev/icons?i=ts" height="18"/>
+- [🔒 bullmq-poc](https://github.com/ngodanghai9x/bullmq-poc) <img src="https://skillicons.dev/icons?i=ts,redis" height="18"/>
+
+</td>
+<td valign="top" width="33%" style="min-width:260px">
 
 ### Frontend
-- [learn-next-ts](https://github.com/ngodanghai9x/learn-next-ts) <img src="https://skillicons.dev/icons?i=ts" height="20"/>
-- [learn-react-native](https://github.com/ngodanghai9x/learn-react-native) <img src="https://skillicons.dev/icons?i=ts" height="20"/>
-- [learn-meteor](https://github.com/ngodanghai9x/learn-meteor) <img src="https://skillicons.dev/icons?i=ts" height="20"/>
-- [stock-market-fe](https://github.com/ngodanghai9x/stock-market-fe) <img src="https://skillicons.dev/icons?i=ts" height="20"/>
-- [web-demo-regex](https://github.com/ngodanghai9x/web-demo-regex) <img src="https://skillicons.dev/icons?i=js" height="20"/>
+- [learn-next-ts](https://github.com/ngodanghai9x/learn-next-ts) <img src="https://skillicons.dev/icons?i=ts" height="18"/>
+- [learn-react-native](https://github.com/ngodanghai9x/learn-react-native) <img src="https://skillicons.dev/icons?i=ts" height="18"/>
+- [learn-meteor](https://github.com/ngodanghai9x/learn-meteor) <img src="https://skillicons.dev/icons?i=ts" height="18"/>
+- [stock-market-fe](https://github.com/ngodanghai9x/stock-market-fe) <img src="https://skillicons.dev/icons?i=ts" height="18"/>
+- [web-demo-regex](https://github.com/ngodanghai9x/web-demo-regex) <img src="https://skillicons.dev/icons?i=js" height="18"/>
 
 ### Blockchain
-- [staking-dapp](https://github.com/ngodanghai9x/staking-dapp) <img src="https://skillicons.dev/icons?i=solidity" height="20"/>
-- [🔒 learn-eth-pow](https://github.com/ngodanghai9x/learn-eth-pow) — Ethereum PoW node (geth)
-
-### Tools & Testing / POC
-- [tools](https://github.com/ngodanghai9x/tools) <img src="https://skillicons.dev/icons?i=js" height="20"/>
-- [learn-unit-test](https://github.com/ngodanghai9x/learn-unit-test) <img src="https://skillicons.dev/icons?i=js" height="20"/>
-- [learn-mobile](https://github.com/ngodanghai9x/learn-mobile)
-- [🔒 proofs-of-concept](https://github.com/ngodanghai9x/proofs-of-concept) — bullmq, electron, node-red, WebRTC, serverless...
+- [staking-dapp](https://github.com/ngodanghai9x/staking-dapp) <img src="https://skillicons.dev/icons?i=solidity" height="18"/>
+- [🔒 learn-eth-pow](https://github.com/ngodanghai9x/learn-eth-pow) 
+<!-- — Ethereum PoW node (geth) -->
 
 ### AI / Automation
-- [🔒 haind-marketplace](https://github.com/ngodanghai9x/haind-marketplace) — Claude Code plugin marketplace
+- [🔒 haind-marketplace](https://github.com/ngodanghai9x/haind-marketplace) 
+<!-- — Claude Code plugin marketplace -->
+
+</td>
+<td valign="top" width="33%" style="min-width:260px">
+
+### Tools & Testing / POC
+- [tools](https://github.com/ngodanghai9x/tools) <img src="https://skillicons.dev/icons?i=js" height="18"/>
+- [learn-unit-test](https://github.com/ngodanghai9x/learn-unit-test) <img src="https://skillicons.dev/icons?i=js" height="18"/>
+- [learn-mobile](https://github.com/ngodanghai9x/learn-mobile)
+- [🔒 proofs-of-concept](https://github.com/ngodanghai9x/proofs-of-concept) 
+<!-- — bullmq, electron, node-red, WebRTC, serverless... -->
 
 ### Notes / Learning archive
 - [🔒 learning](https://github.com/ngodanghai9x/learning)
 - [🔒 learn-stuffs](https://github.com/ngodanghai9x/learn-stuffs)
 - [🔒 notepad](https://github.com/ngodanghai9x/notepad)
-- [🔒 study](https://github.com/ngodanghai9x/study) <img src="https://skillicons.dev/icons?i=java" height="20"/>
+- [🔒 study](https://github.com/ngodanghai9x/study) <img src="https://skillicons.dev/icons?i=java" height="18"/>
 - [🔒 learn-git](https://github.com/ngodanghai9x/learn-git)
 <!-- - [🔒 ninja-school](https://github.com/ngodanghai9x/ninja-school) -->
+
+</td>
+</tr>
+</table>
 
 ## 📬 Liên hệ
 
