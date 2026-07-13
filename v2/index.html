@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hai Ngo — Giới thiệu bản thân</title>
+<meta name="description" content="Hai Ngo (ngodanghai9x) — Software Engineer, Hà Nội, Việt Nam">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #6b7280;
+    --card-bg: #f7f7f9;
+    --border: #e5e7eb;
+    --accent: #2563eb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115;
+      --fg: #e8e8ea;
+      --muted: #9aa0a6;
+      --card-bg: #181b21;
+      --border: #2a2e37;
+      --accent: #7aa2f7;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  header h1 { margin: 0 0 0.25rem; font-size: 1.9rem; }
+  header .role { color: var(--muted); margin: 0 0 1rem; }
+  header blockquote {
+    margin: 1rem 0 0;
+    padding: 0.75rem 1rem;
+    border-left: 3px solid var(--accent);
+    background: var(--card-bg);
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  section { margin-top: 2.5rem; }
+  h2 { font-size: 1.2rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+
+  .skill-group { margin-bottom: 1rem; }
+  .skill-group .label { display: block; font-weight: 600; margin-bottom: 0.35rem; }
+  .skill-group img { height: 27px; }
+
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  @media (max-width: 720px) {
+    .projects-grid { grid-template-columns: 1fr; }
+  }
+  .projects-grid h3 { font-size: 0.95rem; margin: 1.2rem 0 0.5rem; color: var(--muted); }
+  .projects-grid h3:first-child { margin-top: 0; }
+  .projects-grid ul { list-style: none; margin: 0; padding: 0; }
+  .projects-grid li {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.25rem 0;
+    font-size: 0.92rem;
+  }
+  .projects-grid img { height: 18px; }
+
+  .contact-list { list-style: none; margin: 0; padding: 0; }
+  .contact-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .contact-list li:last-child { border-bottom: none; }
+  .contact-list img.badge { height: 20px; }
+  .contact-list span { color: var(--fg); font-size: 0.92rem; }
+
+  footer { margin-top: 3rem; color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <h1>👋 Hai Ngo</h1>
+    <p class="role"><a href="https://github.com/ngodanghai9x">@ngodanghai9x</a> · Software Engineer · Hà Nội, Việt Nam</p>
+    <blockquote>A software engineer who works creatively and is always curious about how an app is built and how it works.</blockquote>
+  </header>
+
+  <section>
+    <h2>💼 Vị trí hiện tại</h2>
+    <p><strong>Công ty / Vị trí:</strong> Software Engineer</p>
+  </section>
+
+  <section>
+    <h2>🛠️ Kỹ năng chính</h2>
+    <div class="skill-group">
+      <span class="label">Backend</span>
+      <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,java,fastify" alt="Node.js, Express, NestJS, Java, Fastify">
+    </div>
+    <div class="skill-group">
+      <span class="label">Frontend</span>
+      <img src="https://skillicons.dev/icons?i=react,html,css,js" alt="React, HTML, CSS, JavaScript">
+    </div>
+    <div class="skill-group">
+      <span class="label">Blockchain</span>
+      <img src="https://skillicons.dev/icons?i=solidity" alt="Solidity">
+    </div>
+    <div class="skill-group">
+      <span class="label">Ngôn ngữ</span>
+      <img src="https://skillicons.dev/icons?i=ts,js,java,python" alt="TypeScript, JavaScript, Java, Python">
+    </div>
+  </section>
+
+  <section>
+    <h2>📂 Projects</h2>
+    <p style="color:var(--muted); font-size:0.9rem;">Nguồn: <a href="https://github.com/ngodanghai9x?tab=repositories">github.com/ngodanghai9x</a> (không tính fork). 🔒 = repo private.</p>
+
+    <div class="projects-grid">
+      <div>
+        <h3>Product / Full-stack</h3>
+        <ul>
+          <li><a href="https://github.com/ngodanghai9x/web-on-thi-fe">web-on-thi-fe</a> <img src="https://skillicons.dev/icons?i=js" alt="JS"></li>
+          <li><a href="https://github.com/ngodanghai9x/web-on-thi-be">web-on-thi-be</a> <img src="https://skillicons.dev/icons?i=java" alt="Java"></li>
+        </ul>
+
+        <h3>Backend</h3>
+        <ul>
+          <li><a href="https://github.com/ngodanghai9x/learn-nestjs">learn-nestjs</a> <img src="https://skillicons.dev/icons?i=ts" alt="TS"></li>
+          <li><a href="https://github.com/ngodanghai9x/learn-express">learn-express</a> <img src="https://skillicons.dev/icons?i=js" alt="JS"></li>
+          <li><a href="https://github.com/ngodanghai9x/learn-fastify">learn-fastify</a> <img src="https://skillicons.dev/icons?i=js" alt="JS"></li>
+          <li><a href="https://github.com/ngodanghai9x/template-nestjs">🔒 template-nestjs</a> <img src="https://skillicons.dev/icons?i=ts,docker" alt="TS, Docker"></li>
+          <li><a href="https://github.com/ngodanghai9x/templates-backend">🔒 templates-backend</a> <img src="https://skillicons.dev/icons?i=nodejs,python,go" alt="Node.js, Python, Go"></li>
+          <li><a href="https://github.com/ngodanghai9x/stock-market-be">🔒 stock-market-be</a> <img src="https://skillicons.dev/icons?i=ts" alt="TS"></li>
+          <li><a href="https://github.com/ngodanghai9x/bullmq-poc">🔒 bullmq-poc</a> <img src="https://skillicons.dev/icons?i=ts,redis" alt="TS, Redis"></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Frontend</h3>
+        <ul>
+          <li><a href="https://github.com/ngodanghai9x/learn-next-ts">learn-next-ts</a> <img src="https://skillicons.dev/icons?i=ts" alt="TS"></li>
+          <li><a href="https://github.com/ngodanghai9x/learn-react-native">learn-react-native</a> <img src="https://skillicons.dev/icons?i=ts" alt="TS"></li>
+          <li><a href="https://github.com/ngodanghai9x/learn-meteor">learn-meteor</a> <img src="https://skillicons.dev/icons?i=ts" alt="TS"></li>
+          <li><a href="https://github.com/ngodanghai9x/stock-market-fe">stock-market-fe</a> <img src="https://skillicons.dev/icons?i=ts" alt="TS"></li>
+          <li><a href="https://github.com/ngodanghai9x/web-demo-regex">web-demo-regex</a> <img src="https://skillicons.dev/icons?i=js" alt="JS"></li>
+        </ul>
+
+        <h3>Blockchain</h3>
+        <ul>
+          <li><a href="https://github.com/ngodanghai9x/staking-dapp">staking-dapp</a> <img src="https://skillicons.dev/icons?i=solidity" alt="Solidity"></li>
+          <li><a href="https://github.com/ngodanghai9x/learn-eth-pow">🔒 learn-eth-pow</a></li>
+        </ul>
+
+        <h3>AI / Automation</h3>
+        <ul>
+          <li><a href="https://github.com/ngodanghai9x/haind-marketplace">🔒 haind-marketplace</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Tools & Testing / POC</h3>
+        <ul>
+          <li><a href="https://github.com/ngodanghai9x/tools">tools</a> <img src="https://skillicons.dev/icons?i=js" alt="JS"></li>
+          <li><a href="https://github.com/ngodanghai9x/learn-unit-test">learn-unit-test</a> <img src="https://skillicons.dev/icons?i=js" alt="JS"></li>
+          <li><a href="https://github.com/ngodanghai9x/learn-mobile">learn-mobile</a></li>
+          <li><a href="https://github.com/ngodanghai9x/proofs-of-concept">🔒 proofs-of-concept</a></li>
+        </ul>
+
+        <h3>Notes / Learning archive</h3>
+        <ul>
+          <li><a href="https://github.com/ngodanghai9x/learning">🔒 learning</a></li>
+          <li><a href="https://github.com/ngodanghai9x/learn-stuffs">🔒 learn-stuffs</a></li>
+          <li><a href="https://github.com/ngodanghai9x/notepad">🔒 notepad</a></li>
+          <li><a href="https://github.com/ngodanghai9x/study">🔒 study</a> <img src="https://skillicons.dev/icons?i=java" alt="Java"></li>
+          <li><a href="https://github.com/ngodanghai9x/learn-git">🔒 learn-git</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>📬 Liên hệ</h2>
+    <ul class="contact-list">
+      <li>
+        <a href="mailto:ngodanghai.work@gmail.com"><img class="badge" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail"></a>
+        <span>ngodanghai.work@gmail.com</span>
+      </li>
+      <li>
+        <a href="https://github.com/ngodanghai9x"><img class="badge" src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
+        <span>https://github.com/ngodanghai9x</span>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/ngodanghai/"><img class="badge" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+        <span>https://www.linkedin.com/in/ngodanghai</span>
+      </li>
+    </ul>
+  </section>
+
+  <footer>v2 — bản HTML tĩnh, tự động theo theme sáng/tối của trình duyệt.</footer>
+
+</main>
+</body>
+</html>
