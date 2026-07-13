@@ -28,9 +28,9 @@ Software Engineer · Hà Nội, Việt Nam
 
 > Nguồn: [github.com/ngodanghai9x](https://github.com/ngodanghai9x?tab=repositories) (không tính fork). 🔒 = repo private.
 
-<table>
+<table markdown="1">
 <tr>
-<td valign="top" width="33%" style="min-width:260px">
+<td valign="top" width="33%" style="min-width:260px" markdown="1">
 
 ### Product / Full-stack
 - [web-on-thi-fe](https://github.com/ngodanghai9x/web-on-thi-fe) <img src="https://skillicons.dev/icons?i=js" height="18"/>
@@ -46,7 +46,7 @@ Software Engineer · Hà Nội, Việt Nam
 - [🔒 bullmq-poc](https://github.com/ngodanghai9x/bullmq-poc) <img src="https://skillicons.dev/icons?i=ts,redis" height="18"/>
 
 </td>
-<td valign="top" width="33%" style="min-width:260px">
+<td valign="top" width="33%" style="min-width:260px" markdown="1">
 
 ### Frontend
 - [learn-next-ts](https://github.com/ngodanghai9x/learn-next-ts) <img src="https://skillicons.dev/icons?i=ts" height="18"/>
@@ -65,7 +65,7 @@ Software Engineer · Hà Nội, Việt Nam
 <!-- — Claude Code plugin marketplace -->
 
 </td>
-<td valign="top" width="33%" style="min-width:260px">
+<td valign="top" width="33%" style="min-width:260px" markdown="1">
 
 ### Tools & Testing / POC
 - [tools](https://github.com/ngodanghai9x/tools) <img src="https://skillicons.dev/icons?i=js" height="18"/>
