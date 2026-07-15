@@ -1,0 +1,37 @@
+# Override dùng riêng khi build local qua Docker (dev/docker-compose.yml).
+# GitHub Pages production tự bật các plugin này và tự biết tên repo,
+# nên các key dưới đây KHÔNG cần và KHÔNG được thêm vào _config.yml chính.
+
+repository: ngodanghai9x/ngodanghai9x.github.io
+
+markdown: CommonMarkGhPages
+kramdown:
+  input: GFM
+
+# Cho phép raw HTML (table, img...) trong README được giữ nguyên thay vì bị strip
+commonmark:
+  options:
+    - UNSAFE
+    - GITHUB_PRE_LANG
+    - HARDBREAKS
+  extensions:
+    - autolink
+    - strikethrough
+    - table
+    - tagfilter
+
+plugins:
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-remote-theme
+  - jekyll-sass-converter
+  - jekyll-seo-tag
+  - jekyll-titles-from-headings
+  - jekyll-avatar
+  - jekyll-include-cache

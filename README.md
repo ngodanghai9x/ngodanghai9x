@@ -1,3 +1,7 @@
+<!-- ---
+title: "Hai Ngo 👋"
+--- -->
+
 # 👋 Giới thiệu bản thân
 
 **Hai Ngo** ([@ngodanghai9x](https://github.com/ngodanghai9x))

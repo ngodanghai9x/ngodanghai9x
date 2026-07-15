@@ -8,3 +8,16 @@
 .credits {
   display: none;
 }
+
+/* Giảm khoảng trắng thừa quanh khối tiêu đề "Hai Ngo" (do #header đã bị ẩn nên không cần chừa chỗ cho nav cố định) */
+section {
+  margin-top: 20px;
+}
+
+section #title {
+  margin-bottom: 15px;
+}
+
+section #title p:empty {
+  display: none;
+}

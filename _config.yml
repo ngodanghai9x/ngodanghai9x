@@ -1,1 +1,6 @@
 theme: jekyll-theme-midnight
+
+title: Hai Ngo
+
+readme_index:
+  with_frontmatter: true
