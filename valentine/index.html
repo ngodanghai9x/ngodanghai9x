@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Will You Be My Valentine?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scene">
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+    <div class="ground"></div>
+  </div>
+
+  <div class="hearts" id="hearts"></div>
+
+  <section class="card screen" id="askScreen">
+    <div class="badge">💌</div>
+
+    <h1 class="title">WILL YOU BE<br>MY VALENTINE?</h1>
+
+    <div class="ask-buttons">
+      <button class="yes-btn" id="yesBtn">YES</button>
+      <button class="no-btn" id="noBtn">NO</button>
+    </div>
+  </section>
+
+  <main class="card screen hidden" id="planScreen">
+    <div class="badge">🐶</div>
+
+    <h1 class="title">WILL YOU BE<br>MY VALENTINE?</h1>
+    <p class="subtitle" id="subtitle">WHAT WOULD YOU LIKE TO DO?</p>
+    <p class="date-summary hidden" id="dateSummary"></p>
+
+    <div class="options" id="options">
+      <button class="option" data-activity="Dinner Date">🍝 DINNER DATE</button>
+      <button class="option" data-activity="Movie Night">🎬 MOVIE NIGHT</button>
+      <button class="option" data-activity="Coffee & Walk">☕ COFFEE &amp; WALK</button>
+      <button class="option" data-activity="Picnic">🧺 PICNIC</button>
+      <button class="option" data-activity="Mini Golf">⛳ MINI GOLF</button>
+      <button class="option" data-activity="Surprise Me">🎁 SURPRISE ME</button>
+    </div>
+
+    <div class="date-picker hidden" id="datePicker">
+      <label class="date-label" for="dateInput">PICK THE DAY</label>
+      <input type="date" class="date-input" id="dateInput">
+      <input type="time" class="date-input" id="timeInput">
+    </div>
+
+    <button class="lock-btn" id="lockBtn" disabled>LOCK IT IN 🔒</button>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -12,7 +12,8 @@ Software Engineer · Hà Nội, Việt Nam
 
 ## 💼 Vị trí hiện tại
 
-- **Công ty / Vị trí:** GEM / Software Engineer
+- **Công ty** GEM
+- **Vị trí:** Software Engineer
 
 ## 🛠️ Kỹ năng chính
 
