@@ -2,6 +2,8 @@ image: ruby:3.2
 
 pages:
   stage: deploy
+  tags:
+    - gem_laptop
   script:
     - bundle install --gemfile=dev/Gemfile
     - BUNDLE_GEMFILE=dev/Gemfile bundle exec jekyll build --config _config.yml,dev/_config.dev.yml -d public
