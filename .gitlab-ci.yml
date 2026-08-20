@@ -1,0 +1,12 @@
+image: ruby:3.2
+
+pages:
+  stage: deploy
+  script:
+    - bundle install --gemfile=dev/Gemfile
+    - BUNDLE_GEMFILE=dev/Gemfile bundle exec jekyll build --config _config.yml,dev/_config.dev.yml -d public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
