@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Tree QR — 3D QR Code từ 1 link</title>
+    <meta name="description" content="Biến 1 URL thành cây isometric, tap để làm phẳng và quét như QR code bình thường." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Tree QR</h1>
+      <p class="hint">Nhập 1 link, cây mọc lên. Tap vào cây để làm phẳng thành QR quét được.</p>
+
+      <form id="form">
+        <input id="url-input" type="text" placeholder="https://..." autocomplete="off" />
+        <button type="submit">Generate</button>
+      </form>
+
+      <p id="error" class="error" hidden></p>
+
+      <div id="canvas-wrap">
+        <canvas id="canvas" hidden></canvas>
+      </div>
+
+      <p class="hint" id="tap-hint" hidden>Tap vào cây để làm phẳng / mọc lại</p>
+    </main>
+
+    <script src="vendor/qrcode.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
